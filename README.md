@@ -18,7 +18,7 @@ To integrate `XMediatorMobileFuse` into your Xcode project using Swift Package M
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/x3mads/xmediator-mobilefuse-swift-package", exact: "1.13.001")
+    .package(url: "https://github.com/x3mads/xmediator-mobilefuse-swift-package", exact: "1.13.100")
 ]
 ```
 

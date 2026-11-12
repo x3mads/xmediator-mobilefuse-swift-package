@@ -8,7 +8,7 @@ let package = Package(
         .library(name: "XMediatorMobileFuse", targets: ["XMediatorMobileFuseTarget"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/mobilefuse/mobilefuse-ios-sdk-spm.git", exact: "1.13.0"),
+        .package(url: "https://github.com/mobilefuse/mobilefuse-ios-sdk-spm.git", exact: "1.13.1"),
         .package(url: "https://github.com/x3mads/xmediator-swift-package.git", .upToNextMajor(from: "1.145.0")),
     ],
     targets: [
@@ -24,8 +24,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "XMediatorMobileFuse",
-            url: "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorMobileFuse/XMediatorMobileFuse-1.13.0.1.zip",
-            checksum: "1ac757e07bf8f4916ac4fce6ca85135487ff43ca87393164c0e07286915664fa"
+            url: "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorMobileFuse/XMediatorMobileFuse-1.13.1.0.zip",
+            checksum: "eda7708697becf54a3b2cd80528edf705e5dfb478c391d066945ff1e2ab4b763"
         ),
     ]
 )
